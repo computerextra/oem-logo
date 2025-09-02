@@ -1,4 +1,13 @@
-Write-Host "Computer Extra StanSoft Installer" ForegroundColor Green
+Write-Host "Computer  Extra  StanSoft  Installer" ForegroundColor Green
+Write-Host "------------------------------------" ForegroundColor Green
+Write-Host "------------------------------------" ForegroundColor Green
+Write-Host "-------- Es werden folgende --------" ForegroundColor Green
+Write-Host "------ Programme installiert: ------" ForegroundColor Green
+Write-Host "----------- Adobe Reader -----------" ForegroundColor Green
+Write-Host "--------- VLC Media Player ---------" ForegroundColor Green
+Write-Host "--------------- 7Zip ---------------" ForegroundColor Green
+Write-Host "--- Wahlweise: Chrome || Firefox ---" ForegroundColor Green
+Write-Host "------------------------------------" ForegroundColor Green
 
 $firefox = Read-Host "Firefox installieren? (y/N)"
 
