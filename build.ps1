@@ -4,4 +4,4 @@ $compress = @{
     DestinationPath  = ".\OEMLogo.zip"
 }
 
-Compress-Archive @compress
+Compress-Archive @compress -Update
